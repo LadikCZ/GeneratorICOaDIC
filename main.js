@@ -21,10 +21,6 @@ else {
 };
 
 var identifikacniCislo = "" + a + b + c + d + e + f + g + h;
-console.log(formula);
-console.log(moduloCislo);
-console.log(h);
-console.log(identifikacniCislo);
 
 document.querySelector('.ICO').innerHTML = identifikacniCislo;
 document.querySelector('.DIC').innerHTML = "CZ" + identifikacniCislo;
